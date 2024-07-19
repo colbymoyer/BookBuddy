@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #e2e2e2;
+  margin: 0;
+  padding: 0;
+}
+#logo-image {
+  width: 30px;
+  margin-right: 10px;
+}
+
+/* Add your own custom styles here */
+
+* {
+  margin: 1%;
+}
+
+.library {
+  display: flex;
+  align-items: center;
+}
+
+.loginForm {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+.single {
+  display: flex;
+}
+.text {
+  width: 50%;
+}
+.bookimg {
+  width: 25%;
+}
+
+.navbar {
+  background-color: #252525;
+  color: white;
+  padding: 5px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #7c7c7c;
+}
